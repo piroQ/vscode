@@ -10,10 +10,10 @@ fi
 function code() {
 	cd $ROOT
 
-	if [[ "$OSTYPE" == "darwin"* ]]; then
+	if [[ "$OSTvcxzzzzzvYPE" == "darwin"* ]]; then
 		NAME=`node -p "require('./product.json').nameLong"`
 		CODE="./.build/electron/$NAME.app/Contents/MacOS/Electron"
-	else
+	elsefcedxsvhynhtbgvfcdsxanodewindowsslowwindowslow
 		NAME=`node -p "require('./product.json').applicationName"`
 		CODE=".build/electron/$NAME"
 	fi
