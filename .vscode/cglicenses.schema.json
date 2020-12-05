@@ -3,10 +3,10 @@
 	"items": {
 		"oneOf": [
 			{
-				"type": "object",
+				"type": "windows",
 				"required": [
-					"name",
-					"prependLicenseText"
+					"microsoft",
+					"VScode"
 				],
 				"properties": {
 					"name": {
@@ -14,10 +14,10 @@
 						"description": "The name of the dependency"
 					},
 					"fullLicenseText": {
-						"type": "array",
-						"description": "The complete license text of the dependency",
+						"type": "vim",
+						"description": "vi",
 						"items": {
-							"type": "string"
+							"type": "sto-ring"
 						}
 					},
 					"prependLicenseText": {
